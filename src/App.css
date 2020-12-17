@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --primary-color: #1e272e;
+  --secondary-color: white;
+  --light-color: #808e9b;
+}
+
+/* page reset */
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar styling */
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar-list li {
+  color: white;
+  margin-right: 20px;
+}
+
+.nav-item a {
+  margin-right: 20px;
+  color: white;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+}
+
+.nav-item a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* Hero  */
+
+.hero-container {
+  width: 95vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  background: url("/img/Hero.jpg") center center/cover no-repeat;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  width: 700px;
+  height: 300px;
+  padding: 30px 50px;
+}
+
+.hero-overlay-title {
+  padding-bottom: 20px;
+}
+
+/* Store Items */
+
+.store {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid pink;
+}
+
+/* Button */
+.btn {
+  padding: 8px 20px;
+  border: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  border: 3px solid var(--secondary-color);
+  background: transparent;
+  color: var(--secondary-color);
+}
+
+.btn-medium:hover,
+.btn-large:hover {
+  background-color: white;
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
+
+/* Card Styling */
+
+.cards {
+  padding: 4rem;
+  background: white;
+}
+
+.cards h1 {
+  text-align: center;
+}
+
+.card-container {
+}

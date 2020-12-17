@@ -1,13 +1,19 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+
+import Home from "./components/pages/Home";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Hero />
+      <Router>
+        <Nav />
+        <Switch>
+          <Route to="/" component={Home} />
+        </Switch>
+      </Router>
     </div>
   );
 }
