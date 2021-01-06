@@ -3,24 +3,18 @@ import { Button } from "./Button";
 class Hero extends React.Component {
   render() {
     return (
-      <div className="hero-container">
+      <div className="hero">
         <div className="hero-overlay">
-          <h2 className="hero-overlay-title">Hero Title</h2>
-          <h4 className="hero-overlay-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            nemo corrupti, laboriosam officia enim reprehenderit numquam
-            laudantium dicta unde, amet ex, beatae id. Fugiat dolor, modi ipsa
-            eveniet tempora quaerat? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Molestias nemo corrupti, laboriosam officia enim
-            reprehenderit numquam laudantium dicta unde, amet ex, beatae id.
-            Fugiat dolor, modi ipsa eveniet tempora quaerat?
-          </h4>
+          <h1 className="hero-overlay-title">HEALTH GOALS</h1>
+          <h2 className="hero-overlay-sub-title">
+            Get consolation from the best certified sport nutritionists
+          </h2>
           <Button
             link="/shop"
             buttonSize="btn-medium"
-            buttonStyle="btn-secondary"
+            buttonStyle="btn-primary"
           >
-            Shop
+            Shop Today!
           </Button>
         </div>
       </div>

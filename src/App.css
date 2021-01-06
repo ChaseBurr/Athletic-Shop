@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 :root {
-  --primary-color: #1e272e;
-  --secondary-color: white;
+  --primary-color: white;
+  --secondary-color: #1e272e;
   --light-color: #808e9b;
+
+  --navbar-height: 90px;
+
+  --orange-color: #ff9600;
 }
 
 /* page reset */
@@ -15,16 +19,39 @@
   margin: 0;
 }
 
+/* Default Styling */
 a {
   text-decoration: none;
+}
+
+/* Primary Styling */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Navbar styling */
 
 .navbar {
-  height: 70px;
+  height: var(--navbar-height);
   width: 100%;
   background-color: var(--primary-color);
+  box-shadow: 0px 0px 5px grey;
+  z-index: 100;
+  position: relative;
+}
+
+.nav-logo {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 20px;
+  font-size: 2rem;
 }
 
 .navbar-list {
@@ -32,45 +59,36 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70px;
+  height: var(--navbar-height);
 }
 
 .navbar-list li {
-  color: white;
   margin-right: 20px;
 }
 
 .nav-item a {
   margin-right: 20px;
-  color: white;
-  transition: all 0.2s ease;
+  color: var(--secondary-color);
   text-transform: uppercase;
 }
 
 .nav-item a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--orange-color);
+  color: var(--orange-color);
 }
 
 /* Hero  */
 
-.hero-container {
-  width: 95vw;
-  height: 80vh;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.hero {
+  width: 100%;
+  height: 680px;
   object-fit: contain;
   background: url("/img/Hero.jpg") center center/cover no-repeat;
   background-color: var(--secondary-color);
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hero-banner {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .hero-overlay {
@@ -78,16 +96,29 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 100;
-  width: 700px;
-  height: 300px;
-  padding: 30px 50px;
+  z-index: 90;
+  width: 100%;
 }
 
 .hero-overlay-title {
-  padding-bottom: 20px;
+  font-size: 6rem;
+  font-weight: 1000;
+  text-shadow: 1px 1px 1px black;
+  color: var(--orange-color);
+}
+
+.hero-overlay-sub-title {
+  color: white;
+  margin-top: -20px;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero-overlay Button {
+  border-color: var(--orange-color);
+  font-size: 1rem;
+  background-color: var(--orange-color);
+  text-transform: uppercase;
 }
 
 /* Store Items */
@@ -109,7 +140,7 @@ a {
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
 }
 
@@ -138,4 +169,32 @@ a {
 }
 
 .card-container {
+}
+
+/* promotion item styling */
+
+.promo-section {
+  padding: 100px;
+}
+
+.promo-cards {
+  justify-content: space-between;
+}
+
+.promo-card {
+  height: 225px;
+  width: 370px;
+  border: 1px solid black;
+  background-color: pink;
+}
+
+.promo-background {
+  padding: 43px 56px;
+  width: 100%;
+  height: 100%;
+}
+
+.promo-content {
+  height: 100%;
+  width: 100%;
 }

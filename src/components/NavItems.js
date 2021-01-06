@@ -1,27 +1,27 @@
 export const NavItems = [
   {
     title: "New Releases",
-    url: "#",
+    url: "/new-releases",
     cName: "nav-item",
   },
   {
     title: "Men",
-    url: "#",
+    url: "/men",
     cName: "nav-item",
   },
   {
     title: "Women",
-    url: "#",
+    url: "/women",
     cName: "nav-item",
   },
   {
     title: "Kids",
-    url: "#",
+    url: "/kids",
     cName: "nav-item",
   },
   {
     title: "Accessories",
-    url: "#",
+    url: "/accessories",
     cName: "nav-item",
   },
 ];

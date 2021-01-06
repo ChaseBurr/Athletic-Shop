@@ -5,7 +5,7 @@ function StoreItems() {
   return (
     <div className="cards">
       <h1>Check out our new items!</h1>
-      <div className="card-container">
+      <div className="container">
         <div className="store-items-wrapper">
           <ul className="store-items">
             <Card
