@@ -1,1 +1,1 @@
-This project is to demostrate my ReactJS knowledge.
+This project is to demonstrate my ReactJS knowledge
