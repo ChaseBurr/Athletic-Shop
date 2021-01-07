@@ -185,7 +185,7 @@ a {
   height: 225px;
   width: 370px;
   border: 1px solid black;
-  background-color: pink;
+  background-color: grey;
 }
 
 .promo-background {
@@ -197,4 +197,42 @@ a {
 .promo-content {
   height: 100%;
   width: 100%;
+}
+
+/* Product Section */
+
+.product-section {
+  height: 90vh;
+  width: 100%;
+  padding: 100px;
+  background-color: lightgrey;
+}
+
+.product-section h1 {
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* Product Cards */
+
+.product-card {
+  height: 515px;
+  width: 355px;
+}
+
+.product-cards {
+  justify-content: space-between;
+}
+
+.product-info {
+  background-color: white;
+  padding: 25px;
+  border-bottom: 1px solid grey;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
 }
