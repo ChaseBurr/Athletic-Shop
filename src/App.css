@@ -36,6 +36,11 @@ a {
   align-items: center;
 }
 
+.primary-color {
+  color: var(--orange-color);
+  text-shadow: 0px 0px 2px grey;
+}
+
 /* Navbar styling */
 
 .navbar {
@@ -177,6 +182,15 @@ a {
   padding: 100px;
 }
 
+.promo-header {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+}
+
 .promo-cards {
   justify-content: space-between;
 }
@@ -184,34 +198,40 @@ a {
 .promo-card {
   height: 225px;
   width: 370px;
-  border: 1px solid black;
-  background-color: grey;
+  position: relative;
+  box-shadow: 0px 0px 8px grey;
 }
 
-.promo-background {
-  padding: 43px 56px;
+.promo-img {
   width: 100%;
   height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 .promo-content {
   height: 100%;
   width: 100%;
+  display: flex;
+  padding: 30px 40px;
+  color: var(--orange-color);
+  text-shadow: 0px 1px 3px grey;
 }
 
 /* Product Section */
 
 .product-section {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   padding: 100px;
   background-color: lightgrey;
 }
 
-.product-section h1 {
+.product-section .container > h1 {
   text-align: center;
-  margin-top: -30px;
+  margin-top: -40px;
   margin-bottom: 30px;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 
@@ -220,6 +240,8 @@ a {
 .product-card {
   height: 515px;
   width: 355px;
+  box-shadow: 0px 0px 8px grey;
+  overflow: hidden;
 }
 
 .product-cards {
@@ -234,5 +256,56 @@ a {
 
 .product-img {
   width: 100%;
-  height: 100%;
+  height: 80%;
+}
+
+/* supplement section */
+
+.supplement-section {
+  background: url("/img/runner.jpg") center;
+  width: 100%;
+  position: relative;
+  height: 640px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.supplement-overlay {
+  width: 100%;
+  height: 640px;
+  background-color: black;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+}
+
+.supplement-content {
+  padding: 80px 60px;
+  color: white;
+}
+
+.supplement-content h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.supplement-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.supplement-content Button {
+  border: 4px solid var(--orange-color);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.supplement-products {
+  display: flex;
+  margin-right: 20px;
 }

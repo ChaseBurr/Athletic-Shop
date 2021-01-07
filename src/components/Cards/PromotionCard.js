@@ -1,12 +1,11 @@
 import React from "react";
 
-function PromotionCard({ text, img }) {
+function PromotionCard({ text, imgSource, imgAlt }) {
   return (
     <div className="promo-card">
-      <div className="promo-background" style={{ background: `url(${img})` }}>
-        <div className="promo-content">
-          <h1>{text}</h1>
-        </div>
+      <img className="promo-img" src={imgSource} alt={imgAlt} />
+      <div className="promo-content">
+        <h1>{text}</h1>
       </div>
     </div>
   );
