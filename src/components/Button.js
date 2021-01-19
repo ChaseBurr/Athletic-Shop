@@ -19,3 +19,7 @@ export const Button = ({
     </Link>
   );
 };
+
+const addToCart = () => {
+  console.log("added to cart");
+};

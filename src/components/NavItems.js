@@ -1,5 +1,10 @@
 export const NavItems = [
   {
+    title: "Home",
+    url: "/",
+    cName: "nav-item active",
+  },
+  {
     title: "New Releases",
     url: "/new-releases",
     cName: "nav-item",
