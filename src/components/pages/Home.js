@@ -1,9 +1,9 @@
 import React from "react";
 import Hero from "../Hero/Hero";
-import StoreItems from "../StoreItems";
+import StoreItems from "./../Store/StoreItems";
 import PromotionCard from "./../Cards/PromotionCard";
 import ProductCard from "./../Cards/ProductCard";
-import { Button } from "../Button";
+import { Button } from "./../Button/Button";
 
 function Home() {
    return (

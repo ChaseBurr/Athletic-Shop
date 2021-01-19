@@ -1,6 +1,15 @@
 import React from "react";
-import { Button } from "./../Button";
+import { Button } from "./../Button/Button";
 import "./Hero.css";
+
+let counter = 1;
+setInterval(() => {
+   document.querySelector("#radio" + counter).checked = true;
+   counter++;
+   if (counter > 4) {
+      counter = 1;
+   }
+}, 6000);
 
 class Hero extends React.Component {
    render() {
@@ -64,15 +73,6 @@ class Hero extends React.Component {
       );
    }
 }
-
-let counter = 1;
-setInterval(() => {
-   document.querySelector("#radio" + counter).checked = true;
-   counter++;
-   if (counter > 4) {
-      counter = 1;
-   }
-}, 6000);
 
 export default Hero;
 
