@@ -1,10 +1,8 @@
 import React from "react";
 import ProductCard from "./../components/Cards/ProductCard";
 import { Button } from "./../components/Button/Button";
-import { stopInterval } from "./../main";
 
 function Store() {
-   stopInterval();
    return (
       <div className="store-page">
          <h1 className="section-header">Featured Items</h1>
