@@ -1,11 +1,13 @@
 import React from "react";
-import Hero from "../Hero/Hero";
-import StoreItems from "./../Store/StoreItems";
-import PromotionCard from "./../Cards/PromotionCard";
-import ProductCard from "./../Cards/ProductCard";
-import { Button } from "./../Button/Button";
+import Hero from "./../components/Hero/Hero";
+// import StoreItems from "./../components/Store/StoreItems";
+import PromotionCard from "./../components/Cards/PromotionCard";
+import ProductCard from "./../components/Cards/ProductCard";
+import { Button } from "./../components/Button/Button";
+import { startInterval } from "./../main";
 
 function Home() {
+   startInterval();
    return (
       <>
          <Hero />
