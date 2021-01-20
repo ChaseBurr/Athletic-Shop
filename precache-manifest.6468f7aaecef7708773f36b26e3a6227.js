@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7178bbbfe9df6dec257bd27c5c10beb3",
+    "revision": "f6d9c74bdfd7d8c12367e26ef79360e9",
     "url": "/Athletic-Shop/index.html"
   },
   {
-    "revision": "64c8a56164b87fd4eb47",
+    "revision": "377ce4ed05e5b5bca7e2",
     "url": "/Athletic-Shop/static/css/main.b7f5a5f0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Athletic-Shop/static/js/2.c0fdd72b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64c8a56164b87fd4eb47",
-    "url": "/Athletic-Shop/static/js/main.498f37b4.chunk.js"
+    "revision": "377ce4ed05e5b5bca7e2",
+    "url": "/Athletic-Shop/static/js/main.b2c13338.chunk.js"
   },
   {
     "revision": "608d8e323a081de77d16",
