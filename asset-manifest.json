@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Athletic-Shop/static/css/main.b7f5a5f0.chunk.css",
+    "main.js": "/Athletic-Shop/static/js/main.95d44af4.chunk.js",
+    "main.js.map": "/Athletic-Shop/static/js/main.95d44af4.chunk.js.map",
+    "runtime-main.js": "/Athletic-Shop/static/js/runtime-main.0059fe91.js",
+    "runtime-main.js.map": "/Athletic-Shop/static/js/runtime-main.0059fe91.js.map",
+    "static/js/2.fa88b4af.chunk.js": "/Athletic-Shop/static/js/2.fa88b4af.chunk.js",
+    "static/js/2.fa88b4af.chunk.js.map": "/Athletic-Shop/static/js/2.fa88b4af.chunk.js.map",
+    "index.html": "/Athletic-Shop/index.html",
+    "precache-manifest.922993e242a84662c64655cca2614106.js": "/Athletic-Shop/precache-manifest.922993e242a84662c64655cca2614106.js",
+    "service-worker.js": "/Athletic-Shop/service-worker.js",
+    "static/css/main.b7f5a5f0.chunk.css.map": "/Athletic-Shop/static/css/main.b7f5a5f0.chunk.css.map",
+    "static/js/2.fa88b4af.chunk.js.LICENSE.txt": "/Athletic-Shop/static/js/2.fa88b4af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0059fe91.js",
+    "static/js/2.fa88b4af.chunk.js",
+    "static/css/main.b7f5a5f0.chunk.css",
+    "static/js/main.95d44af4.chunk.js"
+  ]
+}
