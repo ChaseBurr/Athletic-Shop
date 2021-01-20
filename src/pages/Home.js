@@ -63,7 +63,7 @@ function Home() {
                </h1>
                <div className="product-cards flex">
                   <ProductCard
-                     productImage="/img/bai-1.jpg"
+                     productImage="/Athletic-Shop/img/bai-1.jpg"
                      imageAlt="gold standard pre-workout"
                      productTitle="gold standard pre-workout"
                      productDescription="energy pre-workout"
@@ -79,7 +79,7 @@ function Home() {
                      </Button>
                   </ProductCard>
                   <ProductCard
-                     productImage="/img/bai-1.jpg"
+                     productImage="/Athletic-Shop/img/bai-1.jpg"
                      imageAlt="WOMEN'S PROTEIN SHAKE"
                      productTitle="WOMEN'S PROTEIN SHAKE"
                      productPrice="$17.00"
@@ -94,7 +94,7 @@ function Home() {
                      </Button>
                   </ProductCard>
                   <ProductCard
-                     productImage="/img/bai-1.jpg"
+                     productImage="/Athletic-Shop/img/bai-1.jpg"
                      imageAlt="PERFOMANCE PROTEIN"
                      productTitle="PERFOMANCE PROTEIN"
                      productPrice="$15.00 – $29.00"
@@ -135,7 +135,7 @@ function Home() {
             </div>
             <div className="supplement-products">
                <ProductCard
-                  productImage="/img/bai-1.jpg"
+                  productImage="/Athletic-Shop/img/bai-1.jpg"
                   imageAlt="bai"
                   productTitle="Bai"
                   productDescription="Bia description"
@@ -150,7 +150,7 @@ function Home() {
                   </Button>
                </ProductCard>
                <ProductCard
-                  productImage="/img/bai-1.jpg"
+                  productImage="/Athletic-Shop/img/bai-1.jpg"
                   imageAlt="bai"
                   productTitle="Bai"
                   productDescription="Bia description"
