@@ -16,7 +16,7 @@ class Hero extends React.Component {
 
                {/* Slide images Start */}
                <div className="slide first">
-                  <img src="/img/Hero/Hero-1.jpg" alt="" />
+                  <img src="/Athletic-Shop/img/Hero/Hero-1.jpg" alt="" />
                   <div className="hero-overlay">
                      <h1 className="hero-overlay-title">HEALTH GOALS</h1>
                      <h2 className="hero-overlay-sub-title">
