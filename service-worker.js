@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Athletic-Shop/precache-manifest.12c226fa7957d7c4cb5d5485b9abb777.js"
+  "/Athletic-Shop/precache-manifest.bc508de1e7d46b571abb1d66f5d961b7.js"
 );
 
 self.addEventListener('message', (event) => {
