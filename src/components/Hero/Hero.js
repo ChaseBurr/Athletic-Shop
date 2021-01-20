@@ -33,13 +33,13 @@ class Hero extends React.Component {
                   </div>
                </div>
                <div className="slide">
-                  <img src="/img/Hero/Hero-2.jpg" alt="" />
+                  <img src="/Athletic-Shop/img/Hero/Hero-2.jpg" alt="" />
                </div>
                <div className="slide">
-                  <img src="/img/Hero/Hero-3.jpg" alt="" />
+                  <img src="/Athletic-Shop/img/Hero/Hero-3.jpg" alt="" />
                </div>
                <div className="slide">
-                  <img src="/img/Hero/Hero-4.jpg" alt="" />
+                  <img src="/Athletic-Shop/img/Hero/Hero-4.jpg" alt="" />
                </div>
                {/* Slide images End */}
                {/* Auto navigation start */}
