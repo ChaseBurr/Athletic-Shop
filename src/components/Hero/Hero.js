@@ -66,6 +66,3 @@ class Hero extends React.Component {
 }
 
 export default Hero;
-
-// ! Todo
-// ? Turn Hero into slider
