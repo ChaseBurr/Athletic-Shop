@@ -6,7 +6,9 @@ import ProductCard from "./../components/Cards/ProductCard";
 import { Button } from "./../components/Button/Button";
 import { startInterval } from "./../main";
 
-function Home() {
+import { newProducts } from "./../components/Store/Items";
+
+function Home({ addToCart }) {
    startInterval();
    return (
       <>
@@ -62,52 +64,23 @@ function Home() {
                   <span className="primary-color">New</span> Products
                </h1>
                <div className="product-cards flex">
-                  <ProductCard
-                     productImage="/Athletic-Shop/img/bai-1.jpg"
-                     imageAlt="gold standard pre-workout"
-                     productTitle="gold standard pre-workout"
-                     productDescription="energy pre-workout"
-                     productPrice="$10.00 - $27.00"
-                  >
-                     <Button
-                        link="/cart"
-                        buttonSize="btn-medium"
-                        buttonStyle="btn-primary"
-                        // onClick="addToCart()"
+                  {newProducts.map((product) => (
+                     <ProductCard
+                        productImage={product.imgSrc}
+                        imgAlt={product.name}
+                        productTitle={product.name}
+                        productDescription={product.description}
+                        productPrice={product.price_with_symbol}
                      >
-                        Add to Cart
-                     </Button>
-                  </ProductCard>
-                  <ProductCard
-                     productImage="/Athletic-Shop/img/bai-1.jpg"
-                     imageAlt="WOMEN'S PROTEIN SHAKE"
-                     productTitle="WOMEN'S PROTEIN SHAKE"
-                     productPrice="$17.00"
-                     productDescription="ENERGY PRE-WORKOUT PROTEIN PRODUCTS SALE"
-                  >
-                     <Button
-                        link="/cart"
-                        buttonSize="btn-medium"
-                        buttonStyle="btn-primary"
-                     >
-                        Add to Cart
-                     </Button>
-                  </ProductCard>
-                  <ProductCard
-                     productImage="/Athletic-Shop/img/bai-1.jpg"
-                     imageAlt="PERFOMANCE PROTEIN"
-                     productTitle="PERFOMANCE PROTEIN"
-                     productPrice="$15.00 – $29.00"
-                     productDescription="BARS & SNACKS BEST SELLERS PRE-WORKOUT"
-                  >
-                     <Button
-                        link="/cart"
-                        buttonSize="btn-medium"
-                        buttonStyle="btn-primary"
-                     >
-                        Add to Cart
-                     </Button>
-                  </ProductCard>
+                        <Button
+                           buttonSize="btn-medium"
+                           buttonStyle="btn-primary"
+                           onClick={addToCart}
+                        >
+                           Add to Cart
+                        </Button>
+                     </ProductCard>
+                  ))}
                </div>
             </div>
          </div>
